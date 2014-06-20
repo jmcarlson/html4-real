@@ -1,0 +1,81 @@
+.box {
+	border: dotted 1px LightGray;
+}
+
+.banner {
+	height: 200px;
+	width: auto;
+	background-color: #2ecc71;
+	color: white;
+	text-indent: 5px;
+}
+
+.banner > img {
+	position: absolute;
+}
+
+.menu {
+	height: 40px;
+	width: auto;
+	background-color: #34495e;
+	text-align: right;
+}
+
+.menu > div {
+	display: inline-block;
+	color: white;
+	margin-top: 10px;
+	padding-right: 20px;
+}
+
+.article {
+	margin: 0 10px 0 20px;
+}
+
+.article-title {
+	font-size: 24px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.section-title {
+	font-size: 20px;
+	text-indent: 15px;
+	border-bottom: solid 1px LightGray;
+	margin-top: 20px;
+}
+
+.paragraph {
+	margin: 10px 30px 20px 30px;
+	font-size: 14px;
+}
+
+.code-box {
+	background-color: LightGray;
+	padding: 50px;
+}
+
+.image-box {
+	font-size: 24px;
+	text-align: center;
+	background-color: LightGray;
+	padding: 50px;
+}
+
+.list-desc {
+	font-weight: bold;
+	font-size: 16px;
+	float: left;
+	padding-right: 5px;
+}
+
+.list-text {
+	padding-bottom: 5px;
+	/*font-size: 15px;*/
+}
+
+.footer {
+	color: Gray;
+	padding-top: 5px;
+	padding-bottom: 30px;
+}
